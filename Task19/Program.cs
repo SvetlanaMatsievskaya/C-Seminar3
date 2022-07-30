@@ -1,9 +1,11 @@
-﻿string number = Console.ReadLine("Введите пятизначное число: ");
-if (number[1]== number[2] && number[2]==number[4])
+﻿Console.WriteLine("Введите пятизначное число: ");
+string number = Console.ReadLine();
+if (number[0]== number[4] && number[1]==number[3])
 {
     Console.WriteLine("Да");
-    else
-    {
-        Console.WriteLine("Нет");
-    }
+}    
+else
+{
+    Console.WriteLine("Нет");
 }
+
